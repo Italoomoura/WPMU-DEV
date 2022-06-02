@@ -1,0 +1,8 @@
+div.site-branding{
+    display: none;
+}
+nav#site-navigation{
+    display: inline-block;
+    margin: 0 auto;   
+}
+
