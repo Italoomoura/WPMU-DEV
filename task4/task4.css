@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+}
+div.wp-container-4{
+    background-color: rgb(109, 171, 172) !important;
+}
+
+h1.wp-block-site-title{
+    display: block;
+    background-image: url(https://s.w.org/style/images/about/WordPress-logotype-simplified.png);
+    width: 70px;
+    height: 70px;
+    background-size: 70px;
+}
+h1.wp-block-site-title>a{
+    color: transparent !important;
+}
+
+div.wp-block-navigation__responsive-dialog{
+    background-color: white;
+    color: rgb(109, 171, 172);
+    padding: 5px;
+}
+label.wp-block-search__label{
+    display: none;
+}
+figure.wp-block-image{
+    position: absolute;
+    top: 23.9%;
+    left: 14%;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    width: 100%;
+}
+form.wp-block-search__button-outside{
+    text-align: center;
+    vertical-align: top;
+    width: 70%;
+    border-radius: 0px;
+    padding: 10% 0% 3% 0%;
+}
+input.wp-block-search__input {
+    border-radius: 0px !important;
+}
+button.wp-block-search__button.has-text-color.has-foreground-color.has-background.has-secondary-background-color {
+    border-radius: 0px !important;
+    background-color: rgb(199, 84, 0) !important;
+}
+
+div.wp-block-search__inside-wrapper{
+    vertical-align: top;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+    flex-grow: 1;
+}
+ul.wp-container-21.is-flex-container.columns-4.alignwide.wp-block-post-template{    
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: auto;
+    display: inline-block;
+}
+ul.wp-container-21.is-flex-container.columns-4.alignwide.wp-block-post-template>li{
+    width: 27% !important;
+    text-align: center;
+    display: inline-block;
+    padding: 0.5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li.wp-block-post.post-33.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-uncategorized, 
+li.wp-block-post.post-31.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-uncategorized{
+    display: none;
+}
+a{
+    color: rgb(109, 171, 172) !important;
+    font-size: small;
+}
+h2{
+    align-items: center;
+    vertical-align: top;
+}
+p.wp-block-site-title.has-x-large-font-size>a{
+    color: rgb(199, 84, 0) !important;
+    font-size: larger;
+    
+}
